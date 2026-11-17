@@ -8,3 +8,71 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+body {
+  margin: 0;
+  padding: 3rem 1.5rem;
+  background: #10171b;
+  color: #d9e5e8;
+  font-family: "Courier New", monospace;
+}
+
+body > * {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  color: #63f2d0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+a {
+  color: #63f2d0;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #3d7374;
+  border-radius: 4px;
+  background: #182429;
+  color: #eaf7f7;
+  font: inherit;
+}
+
+input[type="submit"], button {
+  width: fit-content;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #63f2d0;
+  background: #153b39;
+  color: #63f2d0;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+article, li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #30474d;
+  border-left: 4px solid #63f2d0;
+  background: #172126;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #30474d;
+}
+
+ul {
+  list-style: none;
+}
